@@ -16,7 +16,7 @@ import * as RiIcons from "react-icons/ri";
 
 
 
-function Navbar() {
+function NavBar() {
     const[sidebar, setBar] = useState(false)
 
     const showBar = () => setBar(!sidebar)
@@ -40,46 +40,12 @@ function Navbar() {
                     </Link>
                     </li>
                     <Link to='/profile' className="icons">
-                    <CgIcons.CgProfile />My profile
+                    <CgIcons.CgProfile />About us
                     </Link>
                     <Link to='/portfolio' className="icons">
-                    <AiIcons.AiFillFolderOpen />Portfolio
-                    </Link>
-                    {/* <li>
-                    <Link to='/events' className="icons">
-                    <RiIcons.RiCalendarEventFill/>Local events
-                    </Link>
-                    <Link to='/login' className="icons">
-                    <HiIcons.HiOutlineLogin />Login/Signup
-                    </Link>
-                    <Link to='/bikes' className="icons">
-                    <MdIcons.MdDirectionsBike />Bikes
-                    </Link>
-                    <Link to='/skateboards' className="icons">
-                    <GiIcons.GiSkateboard/>Skateboards
-                    </Link>
-                    <Link to='/skates' className="icons">
-                    <GiIcons.GiRollerSkate />Skates
-                    </Link>
-                    <Link to='/cart' className="icons">
-                    <HiIcons.HiOutlineShoppingCart />My cart
-                    </Link>
-                    <Link to='/purchase' className="icons">
-                    <BiIcons.BiPurchaseTag />My purchases
-                    </Link>
-                    <Link to='/profile' className="icons">
-                    <CgIcons.CgProfile />My profile
-                    </Link>
-                    <Link to='/map' className="icons">
-                    <FiIcons.FiMapPin/> Events Google maps
-                    </Link>
-                    <Link to='/chat' className="icons">
-                    <BsIcons.BsChatDots/>Connect
+                    <AiIcons.AiFillFolderOpen />Gallery
                     </Link>
                     
-                    
-                    
-                    </li> */}
                 </ul>
             </nav>
         </div>
@@ -87,4 +53,4 @@ function Navbar() {
 }
 // BiPurchaseTag
 
-export default Navbar
+export default NavBar;

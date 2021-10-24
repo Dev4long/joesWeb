@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import './App.css';
-import Navbar from './Navbar'
+import NavBar from './Navbar.js'
+import Home from './Home.js'
 
 
 
@@ -12,8 +13,9 @@ class App extends Component {
     return (
       <div>
         <Router>
+          <NavBar />
           <Switch>
-       <Navbar />
+          <Route path ='/' exact component = {Home}/>
           </Switch>
         </Router>
       </div>

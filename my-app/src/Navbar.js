@@ -9,7 +9,7 @@ import * as CgIcons from "react-icons/cg";
 
 
 
-function Navbar() {
+function NavBar() {
     const[sidebar, setBar] = useState(false)
 
     const showBar = () => setBar(!sidebar)
@@ -33,16 +33,17 @@ function Navbar() {
                     </Link>
                     </li>
                     <Link to='/profile' className="icons">
-                    <CgIcons.CgProfile />My profile
+                    <CgIcons.CgProfile />About us
                     </Link>
                     <Link to='/portfolio' className="icons">
-                    <AiIcons.AiFillFolderOpen />Portfolio
+                    <AiIcons.AiFillFolderOpen />Gallery
                     </Link>
+                    
                 </ul>
             </nav>
         </div>
     )
 }
-// BiPurchaseTag
 
-export default Navbar
+
+export default NavBar;

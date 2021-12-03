@@ -3,14 +3,7 @@ import React, {useState} from 'react'
 import { Link } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
-import * as HiIcons from "react-icons/hi";
-import * as MdIcons from "react-icons/md";
-import * as GiIcons from "react-icons/gi";
 import * as CgIcons from "react-icons/cg";
-import * as FiIcons from "react-icons/fi";
-import * as BiIcons from "react-icons/bi";
-import * as BsIcons from "react-icons/bs";
-import * as RiIcons from "react-icons/ri";
 
 
 

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import './App.css';
 import NavBar from './Navbar.js'
 import Home from './Home.js'
+import Slider from './Slider.js'
 
 
 
@@ -15,7 +16,10 @@ class App extends Component {
         <Router>
           <NavBar />
           <Switch>
-          <Route path ='/' exact component = {Home}/>
+            <Route path='/' exact component={Home} />
+            <Route path='/portfolio'>
+              <Slider/>
+            </Route>
           </Switch>
         </Router>
       </div>

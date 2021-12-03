@@ -51,6 +51,6 @@ function NavBar() {
         </div>
     )
 }
-// BiPurchaseTag
+
 
 export default NavBar;

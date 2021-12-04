@@ -5,8 +5,11 @@ import firstBefore from './project1pics/firstBefore.jpeg';
 import secondBefore from './project1pics/secondBefore.jpeg';
 import thirdBefore from './project1pics/thirdBefore.jpeg';
 
+import firstAfter2 from './project2pics/firstAfter2.jpeg';
+import firstBefore2 from './project2pics/firstBefore2.jpeg';
+import secondBefore2 from './project2pics/secondBefore2.jpeg';
 
- const ProjectData = [
+const ProjectData = [
     {
         image: firstBefore
     }, {
@@ -20,5 +23,16 @@ import thirdBefore from './project1pics/thirdBefore.jpeg';
     }, {
         image: thirdAfter
     }
- ]
-export default ProjectData
+]
+ 
+const ProjectData2 = [
+    {
+        image: firstBefore2
+    }, {
+        image: secondBefore2
+    }, {
+        image: firstAfter2
+    }
+]
+
+export { ProjectData, ProjectData2 }

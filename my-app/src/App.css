@@ -158,8 +158,10 @@
   }
 
   .projectContainer {
+    padding-left: 20px;
+    padding-top: 50px;
     width: 200px;
     height: 150px;
-    background-color:blue;
+    /* background-color:blue; */
     display: flex;
   }

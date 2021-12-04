@@ -11,6 +11,8 @@ import secondBefore2 from './project2pics/secondBefore2.jpeg';
 
 const ProjectData = [
     {
+        image: "https://upload.wikimedia.org/wikipedia/commons/5/54/Poughkeepsie%2C_NY_with_evening_balloon_take-off-crop.jpg"
+    }, {
         image: firstBefore
     }, {
         image: firstAfter
@@ -27,6 +29,8 @@ const ProjectData = [
  
 const ProjectData2 = [
     {
+        image: "https://static01.nyt.com/images/2020/05/14/arts/13kimmelman-manhattan4/13kimmelman-manhattan4-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
+    }, {
         image: firstBefore2
     }, {
         image: secondBefore2
